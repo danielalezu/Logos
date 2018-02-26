@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100%;
+    max-height: 100%;
+    background-color:#5B5B5B;
+}
+
+.flex-container {
+    display: flex;
+    height: 100%;
+}
+
+.container {
+    margin-left: 25%;
+    margin-top: 15%;
+}
+
+.base_logo {
+    width: 500px;
+    height: 300px;
+}
+
+.base_logo_symbol {
+    display: inline-block;
+    width: 55%;
+}
+
+.base_logo_name {
+    vertical-align:top;
+    display: inline-block;
+    width: 30%;
+    height: 250px;
+    color: white;
+    font-size: 10em;
+    padding-top: 10%;
+}
+
+/* Ejemplo prefijos */
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome and Opera */
+}
+
+.square {
+    margin-right: -4px;
+    margin-top: -4px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+
+.color_red {
+    background: red;
+    margin-left: 5px;
+}
+
+.color_green {
+    background: green;
+}
+
+.color_blue{
+    background: blue;
+    margin-left: 5px;
+}
+
+.color_yellow {
+    background: yellow;
+}
+
+
