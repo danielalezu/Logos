@@ -1,0 +1,52 @@
+
+body{
+    width: 100%;
+	height: 90vh;
+	color: rgb(17, 16, 16);
+    background: linear-gradient(277deg, #765f5f, #d98795, #e8d6d9);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 14s ease infinite;
+	-moz-animation: AnimationName 14s ease infinite;
+	animation: AnimationName 14s ease infinite;
+    font-family: 'Courgette', cursive;
+
+}
+
+
+#center {
+	/*border: 10px solid pink;
+	background: grey*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+    position: relative;
+	margin: auto;
+	margin-top: 80px;
+	transition: all 1s;
+	transform-origin: center center;
+	cursor: pointer;
+	border-radius: 30% 1% 30% 20%;
+}
+
+#center:hover {
+    transform: rotate3d(1,1,1,360deg);
+}
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 13%}
+    50%{background-position:100% 88%}
+    100%{background-position:0% 13%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 13%}
+    50%{background-position:100% 88%}
+    100%{background-position:0% 13%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 13%}
+    50%{background-position:100% 88%}
+    100%{background-position:0% 13%}
+}
